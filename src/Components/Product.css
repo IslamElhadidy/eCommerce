@@ -1,0 +1,58 @@
+.img-height {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.card h3 {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.card h4 {
+    font-size: 12px;
+    color: blue;
+}
+.card h5 {
+    margin: 10px 0;
+}
+.card {
+    max-height: 380px;
+}
+
+.container .text-h {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card a{
+    text-decoration: none;
+    border:  1px solid blue;
+    width: fit-content;
+    display: block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: 0.5s;
+}
+
+.card a:hover {
+    background-color: rgb(140, 140, 224);
+    color: white;
+    border: none;
+}
+
+.container .text {
+    /* text-shadow: 0 0px 10px black;
+    color: blue; */
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: fit-content;
+    padding: 10px 15px;
+    
+}
